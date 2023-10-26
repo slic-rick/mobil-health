@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mobile_clinic *.css
+recursive-include mobile_clinic *.csv
+recursive-include mobile_clinic *.html
+recursive-include mobile_clinic *.ico
+recursive-include mobile_clinic *.js
+recursive-include mobile_clinic *.json
+recursive-include mobile_clinic *.md
+recursive-include mobile_clinic *.png
+recursive-include mobile_clinic *.py
+recursive-include mobile_clinic *.svg
+recursive-include mobile_clinic *.txt
+recursive-exclude mobile_clinic *.pyc
