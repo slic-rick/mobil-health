@@ -94,9 +94,10 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Patient": "mobile_clinic.overrides.patient.CustomPatient",
+    "Patient Appointment": "mobile_clinic.overrides.appointment.Appointment",
+}
 
 # Document Events
 # ---------------
@@ -199,3 +200,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"mobile_clinic.auth.validate"
 # ]
+fixtures = ["Custom Field"]
